@@ -1,0 +1,15 @@
+Snapshots: 20000 (x3 central sectors = 60000 SIR samples)
+
+[Q1] reuse 1: P(SIR >= -5 dB) = 75.38 %  -> does NOT meet the 97 % target
+[Q1] reuse 3: P(SIR >= -5 dB) = 94.87 %  -> does NOT meet the 97 % target
+[Q1] reuse 9: P(SIR >= -5 dB) = 98.83 %  -> meets the 97 % target
+
+[Q2] reuse 3, nu = 3.8: best eta = 0.54  P(SIR >= -5 dB) = 98.66 %  (eta=0: 94.87 %)
+
+[Q3] nu = 3.0: best eta = 0.55  P(SIR >= -5 dB) = 94.92 %
+[Q3] nu = 3.8: best eta = 0.54  P(SIR >= -5 dB) = 98.66 %
+[Q3] nu = 4.5: best eta = 0.59  P(SIR >= -5 dB) = 99.56 %
+
+[Q4] reuse 1: mean =  178.80 Mb/s   97 % of users >=   1.03 Mb/s
+[Q4] reuse 3: mean =  128.39 Mb/s   97 % of users >=   3.20 Mb/s
+[Q4] reuse 9: mean =   66.60 Mb/s   97 % of users >=   4.74 Mb/s
